@@ -9,7 +9,7 @@ body {
 
 #mycalc {
     font-family: 'Courier New', monospace; 
-    background-color: #1a2a33; /* Dark police-station blue */
+    background-color: #1a2a33; 
     border: 3px solid #b30000; 
     border-radius: 10px;
     max-width: 500px;
@@ -67,8 +67,6 @@ button:active {
 
 
 
-
-/* This design idea was created by gapgpt*/
 .bottom-branding {
     grid-column: span 3; 
     display: flex;
@@ -91,4 +89,10 @@ button:active {
     color: #b30000; 
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
 }
